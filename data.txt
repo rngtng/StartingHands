@@ -1,0 +1,72 @@
+AAo;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap
+KKo;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap
+QQo;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap
+JJo;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1
+TTo;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1;Raise/Raise 1
+99o;Call;Raise 0/Call 2;Raise 1/Call 2;Raise 1/Call 2;Check/Call
+88o;Call;Raise 0/Call 2;Raise 1/Call 2;Raise 1/Call 2;Check/Call
+77o;Call;Raise 0/Call 2;Raise 1/Call 2;Raise 1/Call 2;Check/Call
+66o;Call;Call 0/Call 2;Raise 1/Call 2;Raise 0/Call 2;Check/Call 1
+55o;Call;Call 0/Call 2;Raise 1/Call 2;Raise 0/Call 2;Check/Call 1
+44o;Call;Call 0/Call 2;Call 1/Call 2;Raise 0/Call 2;Check/Call 1
+33o;Call;Call 0/Call 2;Call 1/Call 2;Raise 0/Call 2;Check/Call 1
+22o;Call;Call 0/Call 2;Call 1/Call 2;Raise 0/Call 2;Check/Call 1
+AKs;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap
+AQs;Raise/Call;Raise/Call;Raise/Call;Raise/Call;Raise/Call
+AJs;Raise/Call;Raise/Call;Raise/Call;Raise/Call;Raise/Call
+ATs;Call;Raise/Call 2;Raise/Call 2;Raise/Call 2;Raise/Call
+A9s;Call;Raise 1;Raise;Raise 0;Check/Call 1
+A8s;Call;Raise 1;Raise;Raise 0;Check/Call 1
+A7s;Call;Raise 1;Raise;Raise 0;Check/Call 1
+A6s;Fold;Call;Raise 0;Raise 0;Check/Call 2
+A5s;Fold;Call;Raise 0;Raise 0;Check/Call 2
+A4s;Fold;Call;Raise 0;Raise 0;Check/Call 2
+A3s;Fold;Call;Raise 0;Raise 0;Check/Call 2
+A2s;Fold;Call;Raise 0;Raise 0;Check/Call 2
+KQs;Raise/Call;Raise/Call;Raise/Call;Raise/Call;Raise/Call
+KJs;Call;Raise/Call 2;Raise/Call 2;Raise/Call 2;Raise/Call
+KTs;Call;Call;Raise;Raise 0;Check/Call
+K9s;Fold;Call;Raise 0;Raise 0;Check/Call
+K8s;Fold;Fold;Call 2;Call;Check/Call 1
+K7s;Fold;Fold;Call 2;Call;Check/Call 1
+K6s;Fold;Fold;Call 3;Call;Check/Call 2
+K5s;Fold;Fold;Call 3;Call;Check/Call 2
+K4s;Fold;Fold;Call 3;Call;Check/Call 2
+K3s;Fold;Fold;Call 3;Call;Check/Call 2
+K2s;Fold;Fold;Call 3;Call;Check/Call 2
+QJs;Call;Call/Call 2;Raise/Call 2;Raise/Call 2;Raise/Call
+QTs;Call;Call;Raise;Raise 0;Check/Call
+Q9s;Fold;Fold;Raise 0;Call;Check/Call
+Q8s;Fold;Fold;Call 2;Call;Check/Call 1
+Q7s;Fold;Fold;Call 2;Call;Check/Call 1
+Q6s;Fold;Fold;Call 3;Call;Check/Call 2
+Q5s;Fold;Fold;Call 3;Call;Check/Call 2
+Q4s;Fold;Fold;Call 3;Call;Check/Call 2
+Q3s;Fold;Fold;Call 3;Call;Check/Call 2
+Q2s;Fold;Fold;Call 3;Call;Check/Call 2
+JTs;Call;Call/Call 2;Raise/Call 2;Raise 0/Call 2;Check/Call
+J9s;Fold;Fold;Call 1;Call;Check/Call 1
+J8s;Fold;Fold;Call 2;Call;Check/Call 2
+AKo;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap;Cap/Cap
+AQo;Raise;Raise;Raise;Raise;Raise/Call
+AJo;Raise;Raise;Raise;Raise;Raise/Call
+ATo;Fold;Raise 0;Raise 1;Raise 0;Check
+KQo;Raise;Raise;Raise;Raise;Raise/Call
+KJo;Fold;Fold;Raise 1;Raise 0;Check
+KTo;Fold;Fold;Raise 0;Raise 0;Check
+QJo;Fold;Fold;Raise 0;Raise 0;Check
+QTo;Fold;Fold;Raise 0;Call;Check
+JTo;Fold;Fold;Call 0;Call;Check
+#T9s;Fold;Fold;Call 1;Call;Check/Call
+#T8s;Fold;Fold;Call 1;Call;Check/Call
+#T7s;Fold;Fold;Call 1;Call;Check/Call
+#T6s;Fold;Fold;Call 1;Call;Check/Call
+#T5s;Fold;Fold;Call 1;Call;Check/Call
+#T4s;Fold;Fold;Call 1;Call;Check/Call
+#T3s;Fold;Fold;Call 1;Call;Check/Call
+#T2s;Fold;Fold;Call 1;Call;Check/Call
+#98s;Fold;Fold;Call 1;Call;Check/Call
+#87s-54s;Fold;Fold;Call 2;Call;Check/Call 1
+#T8s;Fold;Fold;Call 2;Call;Check/Call 1
+#97s?53s;Fold;Fold;Call 3;Call 1;Check/Call 2
+

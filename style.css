@@ -1,0 +1,222 @@
+H1 {
+        font-family: arial,helvetica,sans-serif;
+        font-size:1.0em;
+}
+
+
+H2 {
+        font-family: arial,helvetica,sans-serif;
+        font-size:0.8em;
+        padding:0;
+        border:0;
+        margin:0;
+        margin-top: 3px;
+        float: left;
+        font-weight: bold;
+}
+
+
+/* #################################### */
+
+#hand #button A {
+        width: 55px;
+        margin: 3px;
+}
+
+/* #################################### */
+
+#next INPUT,
+#button A {   
+	font-family: arial,helvetica,sans-serif;
+        border: solid 1px;
+	border-color: #99f #039 #039 #99f;
+        color: #000000;
+	font-size: 0.7em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 0px;
+	text-decoration: none;
+	text-align: center;
+	width: 90px;
+        float: left;
+        margin: 2px 5px 5px 2px;
+        background-color: #CCCCCC;
+}
+
+#button A.hover {
+	background-color: #AAAAAA;
+}
+
+#button A.selected {   
+        border-color: #039 #99f #99f #039;
+	background-color: #888888;
+}
+/* ############################################################ */
+#calculator {
+         font-family: arial,helvetica,sans-serif;
+         background:#DDDDDD;
+         width:200px;
+         float: left;
+}
+
+#cards TD {
+	text-align: center;
+}
+
+#cards TD.hover{
+	background:#999999;
+}
+
+#cards TD.selected {
+	background:#77DD77;
+}
+
+#cards TD IMG{
+	padding: 1px;
+}
+
+
+/* ################################################################## */
+#table IMG {
+        padding: 0;
+        margin: 0;
+        border: 0;
+}
+
+#table #p0 {
+        margin: 0px 5px 3px 0px; /* width="25" height="23"   */
+}
+
+#table #p1 {
+        margin: 0px 0px 3px 5px; /* width="25" height="23"   */
+}
+
+#table #b0 {
+        margin: 0px 10px 7px 5px; /* width="25" height="17"   */
+}
+
+#table #b1 {
+        margin: 0px 5px 7px 10px; /* width="25" height="17"   */
+}
+
+#table #b9 {
+        margin: 6px 10px 1px 0px; /* width="20" height="17"   */
+}
+
+#table #b2 {
+        margin: 6px 0px 1px 10px; /* width="20" height="17"   */
+}
+
+#table #p6 {
+        margin: 3px 5px 0px 0px; /* width="25" height="23"   */
+}
+
+#table #p5 {
+        margin: 3px 0px 0px 5px; /* width="25" height="23"   */
+}
+
+#table #b6 {
+        margin: 7px 10px 0px 5px; /* width="25" height="17"   */
+}
+
+#table #b5 {
+        margin: 7px 5px 0px 10px; /* width="25" height="17"   */
+}
+
+#table #b7 {
+        margin: 1px 10px 6px 0px; /* width="20" height="17"   */
+}
+
+#table #b4 {
+        margin: 1px 0px 6px 10px; /* width="20" height="17"   */
+}
+
+/* #################################### */
+
+#position INPUT {   
+        float: right;
+        font-size: 0.7em;
+        font-weight: bold;
+        border: 0;
+        padding: 0;
+        margin: 4px 3px 0px 0px;
+        text-align:center;
+        width: 60px;
+        background:#BBBBBB;
+}
+
+#position #button A {   
+        margin: 2px;
+}
+
+/* #################################### */
+
+#raise H2 {
+        float: left;
+        font-size: 0.8em;
+        font-weight: bold;
+}
+
+#raise #button A {
+        width: 58px;
+        margin: 3px;
+}
+
+/* #################################### */
+
+#caller {
+        font-family: arial,helvetica,sans-serif;
+        vertical-align:middle;
+}
+
+#caller LABEL {
+        float: left;
+        font-size: 0.8em;
+        font-weight: bold;
+}
+
+#caller INPUT {
+        float: left;
+        width: 20px;
+        font-size: 0.7em;
+        font-weight: bold;
+        text-align:center;
+}
+
+#caller #button A {   
+	width: 20px;
+}
+
+/* #################################### */
+
+#action  {   
+	background:#FFFFFF;
+        border: 1px solid red;
+        width: 180px;
+        text-align: center;
+        font-size: 0.8em;
+        clear:both;
+        margin: 0px 10px 0px 10px;
+}
+
+#action STRONG {
+        font-weight: bold;
+        font-size: 1.1em;
+        margin: 3px;
+}
+
+/* #################################### */
+
+#next INPUT {   
+	width: 180px;
+        margin: 10px;
+        margin-top: 0px;
+}
+
+#hand,
+#position,
+#raise,
+#caller,
+#next {
+  margin-top: 5px;       
+}

@@ -26,11 +26,10 @@
 
     init = function()
     {ldelim}
-      f_pos   = $("f_pos"); 
-      {if isset($youNo)}
+       f_pos   = $("f_pos"); 
+       {if isset($youNo)}
          //set default values
          f_caller= $("callerno");
-         f_caller.value = 0;
          // $( "late" ).onclick();
          $( "odd" ).onclick();
          $( "unraised" ).onclick();
@@ -41,6 +40,7 @@
            {/if}
        {/foreach}
        {if isset($buttonNo)}$( "b{$buttonNo}" ).onclick();{/if}
+       {if !isset($youNo) && !isset($buttonNo)}update();{/if}
    {rdelim};
    
    Behaviour.addLoadEvent( init );
@@ -66,41 +66,33 @@
     <div id="calculator" background="img/bg.gif">
      <h1>Starting Hands Calculator</h1>
       <h2>Action:</h2>
-      <div id="action"><br>Set your Table Position<br>by clicking on the gray points<br></div>
+      <div id="action"><br>JavaScript has to be activated<br><br></div>
    {if isset($youNo)}   
       <div id="hand">
       <h2>Your Hand:</h2><span id="button"><a id="odd" href="#">odd</a><a id="suited" href="#">suited</a></span>
        <br clear="all" />
        <table width="200" border="0" cellpadding="0" cellspacing="0" id="cards">
          <tr>
-           <td id="c1a"><img src="img/cards/c-A.gif" width="13" height="18" alt2="Ase" /></td>
-           <td id="c1k"><img src="img/cards/c-K.gif" width="13" height="18" alt2="King" /></td>
-           <td id="c1q"><img src="img/cards/c-Q.gif" width="13" height="18" alt2="Queen" /></td>
-           <td id="c1j"><img src="img/cards/c-J.gif" width="13" height="18" alt2="Jack" /></td>
-           <td id="c1t"><img src="img/cards/c-T.gif" width="13" height="18" alt2="10" /></td>
-           <td id="c19"><img src="img/cards/c-9.gif" width="13" height="18" alt2="9" /></td>
-           <td id="c18"><img src="img/cards/c-8.gif" width="13" height="18" alt2="8" /></td>
-           <td id="c17"><img src="img/cards/c-7.gif" width="13" height="18" alt2="7" /></td>
-           <td id="c16"><img src="img/cards/c-6.gif" width="13" height="18" alt2="6" /></td>
-           <td id="c15"><img src="img/cards/c-5.gif" width="13" height="18" alt2="5" /></td>
-           <td id="c14"><img src="img/cards/c-4.gif" width="13" height="18" alt2="4" /></td>
-           <td id="c13"><img src="img/cards/c-3.gif" width="13" height="18" alt2="3" /></td>
-           <td id="c12"><img src="img/cards/c-2.gif" width="13" height="18" alt2="2" /></td>
+           <td id="c1a"><img src="img/cards/A.gif" width="18" height="23" alt2="Ase" /></td>
+           <td id="c1k"><img src="img/cards/K.gif" width="18" height="23" alt2="King" /></td>
+           <td id="c1q"><img src="img/cards/Q.gif" width="18" height="23" alt2="Queen" /></td>
+           <td id="c1j"><img src="img/cards/J.gif" width="18" height="23" alt2="Jack" /></td>
+           <td id="c1t"><img src="img/cards/T.gif" width="18" height="23" alt2="10" /></td>
+           <td id="c19"><img src="img/cards/9.gif" width="18" height="23" alt2="9" /></td>
+           <td id="c18"><img src="img/cards/8.gif" width="18" height="23" alt2="8" /></td>
+           <td id="c17"><img src="img/cards/7.gif" width="18" height="23" alt2="7" /></td>
+           <td id="c16"><img src="img/cards/6.gif" width="18" height="23" alt2="6" /></td>
          </tr>
          <tr>
-           <td id="c2a"><img src="img/cards/c-A.gif" width="13" height="18" alt2="Ase" /></td>
-           <td id="c2k"><img src="img/cards/c-K.gif" width="13" height="18" alt2="King" /></td>
-           <td id="c2q"><img src="img/cards/c-Q.gif" width="13" height="18" alt2="Queen" /></td>
-           <td id="c2j"><img src="img/cards/c-J.gif" width="13" height="18" alt2="Jack" /></td>
-           <td id="c2t"><img src="img/cards/c-T.gif" width="13" height="18" alt2="10" /></td>
-           <td id="c29"><img src="img/cards/c-9.gif" width="13" height="18" alt2="9" /></td>
-           <td id="c28"><img src="img/cards/c-8.gif" width="13" height="18" alt2="8" /></td>
-           <td id="c27"><img src="img/cards/c-7.gif" width="13" height="18" alt2="7" /></td>
-           <td id="c26"><img src="img/cards/c-6.gif" width="13" height="18" alt2="6" /></td>
-           <td id="c25"><img src="img/cards/c-5.gif" width="13" height="18" alt2="5" /></td>
-           <td id="c24"><img src="img/cards/c-4.gif" width="13" height="18" alt2="4" /></td>
-           <td id="c23"><img src="img/cards/c-3.gif" width="13" height="18" alt2="3" /></td>
-           <td id="c22"><img src="img/cards/c-2.gif" width="13" height="18" alt2="2" /></td>
+           <td id="c2a"><img src="img/cards/A.gif" width="18" height="23" alt2="Ase" /></td>
+           <td id="c2k"><img src="img/cards/K.gif" width="18" height="23" alt2="King" /></td>
+           <td id="c2q"><img src="img/cards/Q.gif" width="18" height="23" alt2="Queen" /></td>
+           <td id="c2j"><img src="img/cards/J.gif" width="18" height="23" alt2="Jack" /></td>
+           <td id="c2t"><img src="img/cards/T.gif" width="18" height="23" alt2="10" /></td>
+           <td id="c29"><img src="img/cards/9.gif" width="18" height="23" alt2="9" /></td>
+           <td id="c28"><img src="img/cards/8.gif" width="18" height="23" alt2="8" /></td>
+           <td id="c27"><img src="img/cards/7.gif" width="18" height="23" alt2="7" /></td>
+           <td id="c26"><img src="img/cards/6.gif" width="18" height="23" alt2="6" /></td>
          </tr>
        </table>
      </div>
@@ -186,8 +178,8 @@
    </div>
   </form>
       
-   <!-- table border="1" cellpadding="0" cellspacing="0" id="cards">
- <tr><td> <img src="img/p.gif" style="margin: 0px 10px 20px 40px"></td></tr></table -->
+   {* <table border="1" cellpadding="0" cellspacing="0" id="cards">
+ <tr><td> <img src="img/p.gif" style="margin: 0px 10px 20px 40px"></td></tr></table> *}
  
  </body>
 </html>
